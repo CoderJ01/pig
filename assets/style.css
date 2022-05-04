@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(./images/dice.jpg);
+    background-size: 100%;
+}
+
+header {
+    background: rgb(255,192,203);
+    background: linear-gradient(90deg, rgba(255,192,203,1) 0%, rgba(195,48,140,1) 50%, rgba(255,192,203,1) 100%);
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+main {
+    min-height: 800px;
+}
+
+.download {
+    width: 50%;
+    margin-left: 25%;
+    border: 5px solid rgb(131, 67, 51);
+    margin-top: 100px;
+}
+
+.write-up {
+    background: rgb(255,233,145);
+    background: linear-gradient(90deg, rgba(255,233,145,1) 0%, rgba(255,253,208,1) 50%, rgba(255,233,145,1) 100%);
+}
+
+.write-up h2 {
+    font-size: 30px;
+}
+
+.call-to-action {
+    min-height: 550px;
+    background-image: url(./images/pig.jpg);
+    background-size: 150%;
+    background-position: -250px -100px;
+}
+
+.call-to-action h3 {
+    background-color: rgb(255, 253, 208);
+    width: 14%;
+    margin-left: 43%;
+    font-size: 20px;
+}
+
+.call-to-action a {
+    color: rgb(195, 48, 140);
+}
+
+.call-to-action a:hover {
+    color: rgb(131, 67, 51);
+}
+
+.call-to-action a:active {
+    color: rgb(210, 43, 43);
+}
+
+header, 
+.write-up, 
+.call-to-action h3, 
+.call-to-action p {
+    display: flex;
+    justify-content: center;
+}

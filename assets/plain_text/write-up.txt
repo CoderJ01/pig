@@ -1,0 +1,44 @@
+Project 2
+<Pig>
+
+CIS-5 40740
+Joshua Jones
+2/14/2020
+Introduction
+Title: Pig 
+This is a dice game that can be played with either a single die or two dice. The object of the game is to roll the die or dice to earn points. The amount of points a player earns after rolling the die corresponds to the number rolled; or, in the event that two dice are being rolled, the sum of the dice numbers. A player’s turn doesn’t end until he rolls a 1. If a 1 is rolled, then the respective player also earns no points for that round. For two dice, if two 1’s, which are commonly referred to as snake eyes, are rolled, then the player that rolled the dice loses all the points he has accumulated during the game. The first player to earn one hundred points wins the game.
+Example
+Player A rolls a 2 and a 3. Player A earns five points (2 + 3 = 5). Player A then rolls two 6’s. Player A now has seventeen points (5 + 6 + 6 = 17). Player A then rolls a 5 and a 2. Player A now has twenty-four points (17 + 5 + 2 = 24). Player A then rolls a 1 and a 6. Player A has earned zero points for that round (24 + 0 = 24), and has to forfeit his turn to Player B. 
+Player B rolls two 6’s, so has twelve points (6 + 6 = 12). With luck on his side, Player B rolls two 6’s again, earning him twenty-four points (12 + 6 + 6 = 24). Player B then rolls two 1’s. Player B has now lost all the points he had for the game (24  0), and has to forfeit his turn to the next player.
+So… 
+Player A has 24 points.
+Player B has 0 points.
+
+Summary
+Project size: 750+ lines
+Number of variables: 25+
+Number of players for first round: 3
+Number of players for second round: 2
+
+Since the code for this game is a continuation of the code from project one, a creative approach to the code needed to 
+be utilized. It needed to utilize the concepts taught later in this course. Lots of tweaks needed to be implemented in 
+order to apply the new concepts from chapters six through eight. The game was already effectively done in the previous 
+project. That being said, much of the code was replaced to accommodate the newer C/C++ programming tricks, especially 
+functions.
+
+Pig involves, at most, only two dice; so, it is a relatively easy game to mimic using the C/C++ template. The use of 
+arrays, vectors, and functions would probably have been more penitent to a project that involved a board game or a card 
+game. Nonetheless, those concepts were exploited in the code in a creative fashion that failed to deviate from the topic 
+of Pig, albeit, admittingly, somewhat strayed from the gameplay itself.
+
+The most significant aspect of Pig to consider is the dice themselves. The potential numbers that can be rolled need to 
+be known. Pig can be played with either standard dice that have a 1 on one side or specialized dice that have a pig 
+symbol in place of the one. The pig and the one effectively has the same effect in terms of the game rules. Being a 
+purely dice-based game, winning Pig requires no particular skill, nor does it require much mental astuteness. The random 
+number generator was extremely useful in the making of the game. It needed to used several times in the code in order to 
+nsure that the compiler wouldn’t “forget” to generate random numbers within each loop.
+
+The use of programming looping and operators is imperative for the gameplay. The compiler needs to know when to 
+accumulate each player’s points. The players also need to alternate their turns in the game of Pig. The do-while and 
+while loops, along with the plus equal (+=) assignment operator, were instrumental in mimicking the game of Pig through 
+C/C++ programing techniques.
