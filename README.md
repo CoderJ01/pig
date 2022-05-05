@@ -8,7 +8,7 @@ This website is designed merely to contain the link for my Pig project in a pres
  * CSS
 
 ## Screenshot of Website
-![Alt text](./assets/images/image-screenshot.JPG?raw=true "Pig")
+![Alt text](./assets/images/screenshot.JPG?raw=true "Pig")
 
 ## Website Link
 https://coderj01.github.io/pig/
