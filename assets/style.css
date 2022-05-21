@@ -120,6 +120,13 @@ header,
     }
 }
 
+/* iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+    .call-to-action {
+        background-position: -125px -50px;
+    }
+}
+
 /* iPhone X */
 @media screen and (max-width: 375px) {
     .call-to-action {
