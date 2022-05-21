@@ -119,3 +119,9 @@ header,
         background-position: -150px -70px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .call-to-action {
+        background-position: -140px -40px;
+    }
+}
