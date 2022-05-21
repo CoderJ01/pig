@@ -100,7 +100,7 @@ header,
 /* Surface Duo */
 @media screen and (max-width: 540px) {
     main {
-        min-height: 600px;
+        min-height: 100px;
     }
 
     .download {
@@ -110,5 +110,12 @@ header,
 
     .call-to-action h3 {
         font-size: 30px;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media screen and (max-width: 414px) {
+    .call-to-action {
+        background-position: -150px -70px;
     }
 }
